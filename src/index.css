@@ -1,0 +1,88 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: 255 137 1;
+  --color-secondary: 251 146 60;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.text-primary {
+  color: rgb(var(--color-primary));
+}
+
+.bg-primary {
+  background-color: rgb(var(--color-primary));
+}
+
+.hover\:text-primary:hover {
+  color: rgb(var(--color-primary));
+}
+
+.hover\:bg-primary:hover {
+  background-color: rgb(var(--color-primary));
+}
+
+.border-primary {
+  border-color: rgb(var(--color-primary));
+}
+
+.text-secondary {
+  color: rgb(var(--color-secondary));
+}
+
+.bg-secondary {
+  background-color: rgb(var(--color-secondary));
+}
+
+.from-primary {
+  --tw-gradient-from: rgb(var(--color-primary));
+  --tw-gradient-to: rgb(var(--color-primary) / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-secondary {
+  --tw-gradient-to: rgb(var(--color-secondary));
+}
+
+.hover\:border-primary:hover {
+  border-color: rgb(var(--color-primary));
+}
+
+.container {
+  width: 100%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+@media (min-width: 640px) {
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
