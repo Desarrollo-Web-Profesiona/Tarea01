@@ -1,8 +1,8 @@
-# 🎓 Barra de Navegación - El Sitio de BARG Cursos
+#  Barra de Navegación - El Sitio de BARG Cursos
 
 Aplicación web con barra de navegación responsiva desarrollada con React, Vite, Tailwind CSS y Motion.
 
-## 📋 Descripción
+## Descripción
 
 Sistema de navegación moderno y responsivo que incluye:
 - Barra de navegación adaptable a diferentes dispositivos
@@ -10,7 +10,7 @@ Sistema de navegación moderno y responsivo que incluye:
 - Banner principal con animaciones suaves
 - Integración con Docker para deployment
 
-## 🚀 Tecnologías
+## Tecnologías
 
 - **React 18** - Librería de JavaScript para interfaces de usuario
 - **Vite** - Build tool rápido y moderno
